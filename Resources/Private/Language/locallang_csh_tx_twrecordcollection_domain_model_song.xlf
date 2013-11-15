@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-14T13:58:48Z" product-name="tw_recordcollection">
+		<header/>
+		<body>
+
+			<trans-unit id="song.description">
+				<source>song</source>
+			</trans-unit>
+			<trans-unit id="interpreter.description">
+				<source>interpreter</source>
+			</trans-unit>
+			<trans-unit id="album_name.description">
+				<source>albumName</source>
+			</trans-unit>
+			<trans-unit id="year.description">
+				<source>year</source>
+			</trans-unit>
+			<trans-unit id="genre.description">
+				<source>genre</source>
+			</trans-unit>
+			<trans-unit id="record_type.description">
+				<source>recordType</source>
+			</trans-unit>
+			<trans-unit id="record_label.description">
+				<source>recordLabel</source>
+			</trans-unit>
+			<trans-unit id="side.description">
+				<source>side</source>
+			</trans-unit>
+			<trans-unit id="extra.description">
+				<source>extra</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

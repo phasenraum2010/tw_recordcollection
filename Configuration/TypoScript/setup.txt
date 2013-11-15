@@ -1,0 +1,45 @@
+plugin.tx_twrecordcollection {
+	view {
+		templateRootPath = {$plugin.tx_twrecordcollection.view.templateRootPath}
+		partialRootPath = {$plugin.tx_twrecordcollection.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_twrecordcollection.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_twrecordcollection.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_twrecordcollection._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-tw-recordcollection table {
+		border-collapse:separate;
+		border-spacing:2px;
+	}
+
+	.tx-tw-recordcollection table th {
+		font-weight:bold;
+		padding-right: 2px;
+	}
+
+	.tx-tw-recordcollection table td {
+		vertical-align:top;
+		padding-right: 2px;
+	}
+
+	ul.f3-widget-paginator li {
+	    display: inline
+	}
+)

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-14T13:58:48Z" product-name="tw_recordcollection">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_interpreter">
+				<source>Interpreter</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_interpreter.interpreter">
+				<source>Interpreter</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_genre">
+				<source>Genre</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_genre.genre">
+				<source>Genre</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_albumname">
+				<source>Album Name</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_albumname.album_name">
+				<source>Album Name</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_year">
+				<source>Year</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_year.year">
+				<source>Year</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_recordlabel">
+				<source>Record Label</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_recordlabel.record_label">
+				<source>Record Label</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_recordtype">
+				<source>Record Type</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_recordtype.record_type">
+				<source>Record Type</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_side">
+				<source>Side</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_side.side">
+				<source>Side</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_extra">
+				<source>Extra</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_extra.extra">
+				<source>Extra</source>
+			</trans-unit>
+
+			<trans-unit id="tx_twrecordcollection_domain_model_song">
+				<source>Song</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.song">
+				<source>Song</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.interpreter">
+				<source>Interpreter</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.album_name">
+				<source>Album Name</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.year">
+				<source>Year</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.genre">
+				<source>Genre</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.record_type">
+				<source>Record Type</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.record_label">
+				<source>Record Label</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.side">
+				<source>Side</source>
+			</trans-unit>
+			<trans-unit id="tx_twrecordcollection_domain_model_song.extra">
+				<source>Extra</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
