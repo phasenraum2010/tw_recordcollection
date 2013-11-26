@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-14T13:58:48Z" product-name="tw_recordcollection">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-11-25T15:12:28Z" product-name="tw_recordcollection">
 		<header/>
 		<body>
 
 			<trans-unit id="album_name.description">
 				<source>albumName</source>
+			</trans-unit>
+			<trans-unit id="album_cover.description">
+				<source>albumCover</source>
 			</trans-unit>
 		</body>
 	</file>

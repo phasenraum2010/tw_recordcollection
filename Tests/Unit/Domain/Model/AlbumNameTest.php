@@ -66,5 +66,22 @@ class AlbumNameTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 		);
 	}
 	
+	/**
+	 * @test
+	 */
+	public function getAlbumCoverReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setAlbumCoverForStringSetsAlbumCover() { 
+		$this->fixture->setAlbumCover('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getAlbumCover()
+		);
+	}
+	
 }
 ?>

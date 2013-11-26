@@ -140,7 +140,7 @@ $TCA['tx_twrecordcollection_domain_model_albumname'] = array(
 			'starttime' => 'starttime',
 			'endtime' => 'endtime',
 		),
-		'searchFields' => 'album_name,',
+		'searchFields' => 'album_name,album_cover,',
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Configuration/TCA/AlbumName.php',
 		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_twrecordcollection_domain_model_albumname.gif'
 	),

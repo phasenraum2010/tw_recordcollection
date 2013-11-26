@@ -12,7 +12,9 @@ List.html: keep
 Otherwise your changes will be overwritten the next time you save the extension in the extension builder
 
 <f:section name="main">
-    <h1>Listing for Song and Album Name</h1>
+    <h1>Songs of Album: {albumName.albumName}<br/>
+        <f:image src="uploads/tx_twrecordcollection/{albumName.albumCover}" width="100" height="100" alt="{albumName.albumName}" />
+    </h1>
 
     <f:flashMessages />
 

@@ -1,6 +1,7 @@
 <?php
 namespace ThomasWoehlke\TwRecordcollection\Domain\Model;
 
+
 /***************************************************************
  *  Copyright notice
  *
@@ -42,6 +43,13 @@ class AlbumName extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	protected $albumName;
 
 	/**
+	 * albumCover
+	 *
+	 * @var \string
+	 */
+	protected $albumCover;
+
+	/**
 	 * Returns the albumName
 	 *
 	 * @return \string $albumName
@@ -58,6 +66,25 @@ class AlbumName extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 */
 	public function setAlbumName($albumName) {
 		$this->albumName = $albumName;
+	}
+
+	/**
+	 * Returns the albumCover
+	 *
+	 * @return \string $albumCover
+	 */
+	public function getAlbumCover() {
+		return $this->albumCover;
+	}
+
+	/**
+	 * Sets the albumCover
+	 *
+	 * @param \string $albumCover
+	 * @return void
+	 */
+	public function setAlbumCover($albumCover) {
+		$this->albumCover = $albumCover;
 	}
 
 }

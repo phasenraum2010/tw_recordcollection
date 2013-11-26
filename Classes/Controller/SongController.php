@@ -1,6 +1,7 @@
 <?php
 namespace ThomasWoehlke\TwRecordcollection\Controller;
 
+
 /***************************************************************
  *  Copyright notice
  *
@@ -125,8 +126,9 @@ class SongController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController 
 	 * @return void
 	 */
 	public function getSongsForAlbumNameAction(\ThomasWoehlke\TwRecordcollection\Domain\Model\Song $song) {
-		        $songs = $this->songRepository->findByAlbumName($song->getAlbumName());
-		        $this->view->assign('songs', $songs);
+		$songs = $this->songRepository->findByAlbumName($song->getAlbumName());
+		$this->view->assign('albumName', $song->getAlbumName());
+        $this->view->assign('songs', $songs);
 	}
 
 }

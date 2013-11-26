@@ -1,6 +1,7 @@
 <?php
 namespace ThomasWoehlke\TwRecordcollection\Controller;
 
+
 /***************************************************************
  *  Copyright notice
  *
@@ -45,7 +46,7 @@ class AlbumNameController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContro
 	 * songRepository
 	 *
 	 * @var \ThomasWoehlke\TwRecordcollection\Domain\Repository\SongRepository
-	 * @inject
+	 * @inject 
 	 */
 	protected $songRepository;
 

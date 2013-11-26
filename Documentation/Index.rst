@@ -17,8 +17,8 @@ Extension Name
 :Description: manuals covering TYPO3 extension "Record Collection"
 :Language: en
 :Author: 
-:Creation: 2013-11-14
-:Generation: 13:58
+:Creation: 2013-11-25
+:Generation: 15:12
 :Licence: Open Content License available from `www.opencontent.org/opl.shtml <http://www.opencontent.org/opl.shtml>`_
 
 The content of this document is related to TYPO3, a GNU/GPL CMS/Framework available from `www.typo3.org

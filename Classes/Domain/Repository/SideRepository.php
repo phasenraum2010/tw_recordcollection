@@ -1,6 +1,7 @@
 <?php
 namespace ThomasWoehlke\TwRecordcollection\Domain\Repository;
 
+
 /***************************************************************
  *  Copyright notice
  *

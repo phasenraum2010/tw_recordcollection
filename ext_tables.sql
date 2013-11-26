@@ -87,6 +87,7 @@ CREATE TABLE tx_twrecordcollection_domain_model_albumname (
 	pid int(11) DEFAULT '0' NOT NULL,
 
 	album_name varchar(255) DEFAULT '' NOT NULL,
+	album_cover text NOT NULL,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,

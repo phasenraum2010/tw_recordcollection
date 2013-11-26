@@ -19,6 +19,7 @@ Otherwise your changes will be overwritten the next time you save the extension 
 <table  class="tx_twrecordcollection" >
 	<tr>
 		<th><f:translate key="tx_twrecordcollection_domain_model_albumname.album_name" /></th>
+        <th> </th>
         <!--
 		<th> </th>
 		<th> </th>
@@ -28,6 +29,7 @@ Otherwise your changes will be overwritten the next time you save the extension 
 	<f:for each="{albumNames}" as="albumName">
 		<tr>
 			<td><f:link.action action="getSongsForAlbumName" arguments="{albumName : albumName}"> {albumName.albumName}</f:link.action></td>
+            <td><f:image src="uploads/tx_twrecordcollection/{albumName.albumCover}" width="100" height="100" alt="{albumName : albumName}" /></td>
             <!--
 			<td><f:link.action action="edit" arguments="{albumName : albumName}">Edit</f:link.action></td>
 			<td><f:link.action action="delete" arguments="{albumName : albumName}">Delete</f:link.action></td>
